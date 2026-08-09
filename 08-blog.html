@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مقالات ارگانیکلی</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Vazirmatn', Tahoma, sans-serif; background: #0a0a0a; color: #fff; padding: 4rem 2rem; }
+        .blog { max-width: 1200px; margin: 0 auto; }
+        .section-title { font-size: 2.5rem; margin-bottom: 3rem; color: #667eea; text-align: center; }
+        .blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .blog-card { background: rgba(255,255,255,0.05); border-radius: 15px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); transition: all 0.3s; }
+        .blog-card:hover { transform: translateY(-5px); border-color: #667eea; }
+        .blog-image { height: 180px; background: linear-gradient(135deg, #667eea, #764ba2); display: flex; align-items: center; justify-content: center; font-size: 3rem; }
+        .blog-content { padding: 2rem; }
+        .blog-meta { display: flex; gap: 1rem; margin-bottom: 1rem; font-size: 0.85rem; color: #888; }
+        .blog-content h3 { font-size: 1.3rem; margin-bottom: 1rem; color: #fff; line-height: 1.5; }
+        .blog-content p { color: #aaa; line-height: 1.6; margin-bottom: 1.5rem; }
+        .read-more { color: #667eea; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 0.5rem; }
+        .read-more:hover { gap: 1rem; }
+    </style>
+</head>
+<body>
+    <section class="blog">
+        <h2 class="section-title">آخرین مقالات</h2>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <div class="blog-image">📈</div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span>۱۵ مرداد ۱۴۰۵</span>
+                        <span>سئو</span>
+                    </div>
+                    <h3>راهنمای کامل سئو تکنیکال در سال ۲۰۲۶</h3>
+                    <p>آموزش گام‌به‌گام بهینه‌سازی فنی سایت برای بهبود رتبه در گوگل با تمرکز بر Core Web Vitals</p>
+                    <a href="#" class="read-more">ادامه مطلب →</a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-image">🤖</div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span>۱۰ مرداد ۱۴۰۵</span>
+                        <span>هوش مصنوعی</span>
+                    </div>
+                    <h3>چگونه AI مارکتینگ دیجیتال را متحول می‌کند؟</h3>
+                    <p>بررسی کاربردهای عملی هوش مصنوعی در اتوماسیون، شخصی‌سازی و تحلیل داده‌های بازاریابی</p>
+                    <a href="#" class="read-more">ادامه مطلب →</a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-image">💰</div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span>۵ مرداد ۱۴۰۵</span>
+                        <span>Performance Marketing</span>
+                    </div>
+                    <h3>۵ استراتژی کاهش هزینه جذب مشتری (CAC)</h3>
+                    <p>راهکارهای عملی برای بهینه‌سازی بودجه تبلیغاتی و افزایش ROI کمپین‌های دیجیتال</p>
+                    <a href="#" class="read-more">ادامه مطلب →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+</body>
+</html>
